@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aaaaaa;
+  margin: 0;
+}
+
+header {
+  background-color: greenyellow;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding: 100px 15px 50px 15px;
+}
+
+nav {
+  border: 1px solid black;
+  position: fixed;
+  top: 110px;
+  right: 20px;
+}
+
+.szamologep {
+  background-color: #aaaaaa;
+  padding: 15px;
+  position: fixed;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  top: 150px;
+  width: 65%;
+  left: calc((100% - 65%) / 2);
+}
+
+.szamologep button {
+  position: fixed;
+  right: calc((100% - 65%) / 2 + 15px);
+}
+
+form {
+  border: 1px solid black;
+  margin-top: 25px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 0fr 1fr 0fr;
+  text-align: right;
+}
+
+article {
+  border: 1px solid black;
+}
+
+footer {
+  background-color: greenyellow;
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
